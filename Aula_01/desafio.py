@@ -1,19 +1,19 @@
 # 1) Solicita ao usuário que digite seu nome
 
 Q1 = "Digite seu nome: "
-nome = input(print(Q1))
+nome = input(Q1)
 
 # 2) Solicita ao usuário que digite o valor do seu salário
 # Converte a entrada para um número de ponto flutuante
 
 Q2 = "Digite o valor da sua remuneração: "
-salario = float(input(print(Q2)))
+salario = float(input(Q2))
 
 # 3) Solicita ao usuário que digite o valor do bônus recebido
 # Converte a entrada para um número de ponto flutuante
 
 Q3 = "Digite o valor do seu bônus: "
-bonus = float(input(print(Q3)))
+bonus = float(input(Q3))
 
 # 4) Calcule o valor do bônus final
 

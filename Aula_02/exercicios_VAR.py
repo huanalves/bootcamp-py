@@ -114,17 +114,38 @@ print(f"Quem nasce em {datamesnasc} de {mesnasc} é leonino")
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário 
 #       e retorne o resultado da operação AND entre elas.
 
-metadiaria = 10
-volvenda = input("Quantas baterias você vendeu hoje: ")
-metavenda = input("Qual a meta do diaria?: ")
+volvenda = int(input("Quantas baterias você vendeu hoje: "))
+metavenda = int(input("Qual a meta do diaria?: "))
 
-metavenda < metadiaria and volvenda < 0 = False
+print(metavenda > volvenda and volvenda <= 0)
 
-print(resultado)
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+qst_1 = int(input("Qual sua idade? "))
+qst_2 = input("Qual sua raça, cor ou etnia? ")
+
+print(qst_1 > 40 or qst_2 != "negro")
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+seq_fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+qst_1 = int(input("Qual sua idade? "))
+
+print(qst_1 not in seq_fib)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+qst_1 = int(input("Qual sua idade? "))
+qst_2 = int(input("Qual a idade do seu melhor amigo? "))
+
+print(qst_1 == qst_2)
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+qst_1 = int(input("Qual sua idade? "))
+qst_2 = int(input("Qual a idade do seu melhor amigo? "))
+
+print(qst_1 != qst_2)
 
 # #### try-except e if
 
